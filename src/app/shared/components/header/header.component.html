@@ -1,0 +1,23 @@
+<ion-header class="ion-no-border d-flex-center" >
+  <ion-toolbar color="primary">
+
+    <ion-buttons slot="start">
+      <!-- back button -->
+      <ion-back-button *ngIf="backButton" [defaultHref]="backButton"></ion-back-button>
+
+<!--  dissmiss modaal -->
+    <ion-button (click)="dismissModal()" *ngIf="isModal">
+     <ion-icon  name="close-circle-outline"></ion-icon>
+    </ion-button>
+
+      <ion-menu-button *ngIf="showMenu" menu="menu-content"></ion-menu-button>
+    
+  </ion-buttons>
+
+<!-- titulo del header -->
+    <ion-title class="d-flex-center">
+      <strong>{{title}}</strong>
+      <div class="admin">FinderApp</div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>

@@ -1,0 +1,7 @@
+{
+  "name": "Finder",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
