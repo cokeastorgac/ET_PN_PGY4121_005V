@@ -8,4 +8,4 @@ Integrantes:
 
 Astorga Jorge
 Casanova Marcelo
-Rojas Martin
+Soto Constanza
